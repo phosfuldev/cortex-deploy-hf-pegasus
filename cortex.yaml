@@ -1,0 +1,5 @@
+- name: pegasus-summariser
+  kind: RealtimeAPI
+  predictor:
+    type: python
+    path: predictor.py
